@@ -1,0 +1,35 @@
+body {
+    background-color: #fefefe;
+}
+
+.header-container {
+    background-color: #2525;
+    padding: 3px;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 4em;
+}
+.h2-container {
+    text-align: center;
+    font-size: 2em;
+}
+.first-p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.image {
+    max-width: 350px;
+    max-height: 500px;
+}
+.decoder-link {
+    width:  150px;
+    height: 35px;
+    margin-left: 105px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #2525;
+}
