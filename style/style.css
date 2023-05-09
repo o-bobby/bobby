@@ -2,8 +2,11 @@
     background-color: #fefefe;
     font-family: 'Teko', sans-serif;
 }
+.header-container {
+   
+}
 
-.main-title {
+.main-title{
     text-align: center;
     font-size: 5em;
 }
@@ -21,4 +24,11 @@
 }
 .ulist {
     font-size: 1.5em;
+    
+}
+
+.projects {
+    
+    text-align: center;
+    font-size: 3em;
 }
