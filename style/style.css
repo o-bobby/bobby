@@ -1,6 +1,7 @@
 *{
-    background-color: #fefefe;
+    background-color: #dee2e6;
     font-family: 'Teko', sans-serif;
+    color: #212529;
 }
 .header-container {
    
@@ -9,6 +10,8 @@
 .main-title{
     text-align: center;
     font-size: 5em;
+    
+    
 }
 
 .first-container {
@@ -22,13 +25,39 @@
     text-align: center;
     font-size: 1.5em;
 }
-.ulist {
-    font-size: 1.5em;
+
+
+.div-box  {
+    display: flex;
+    justify-content: center;
+    background-color: #6c757c;
+    border-radius: 5px;
+    width: 450px;
+    height: 150px;
+    font-size: 3em;
+    
+    
+}
+.div-box:hover {
+    transform: scalex(1.1);
+    transition: 6ms;
+    
+}
+a {
+    background-color: #6c757c;
+    text-decoration: none;
+    color: #dee2e6;
+}
+a:hover {
+    color: #212529;
+    
+   
+   
+    
     
 }
 
 .projects {
-    
     text-align: center;
     font-size: 3em;
 }
