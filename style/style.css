@@ -1,11 +1,9 @@
-*{
+body {
     background-color: #dee2e6;
     font-family: 'Teko', sans-serif;
     color: #212529;
 }
-.header-container {
-   
-}
+
 
 .main-title{
     text-align: center;
@@ -61,3 +59,28 @@ a:hover {
     text-align: center;
     font-size: 3em;
 }
+
+
+/*Reponsive */
+@media(max-width: 360px) {
+
+    .header-container{
+        height: 105px;
+        padding-top: 5px;
+        
+        
+        
+    }
+    
+    .main-title {
+        margin-top: 1px;
+        font-size: 6rem;
+         text-transform: uppercase;
+    }
+
+    .p1 {
+        font-size: 25px;
+    }   
+    .div-box {
+        width: 325px;
+    } 
