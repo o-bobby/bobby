@@ -27,27 +27,36 @@ body {
 
 .div-box  {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: #6c757c;
-    border-radius: 5px;
-    width: 450px;
-    height: 150px;
-    font-size: 3em;
+  
     
     
 }
-.div-box:hover {
-    transform: scalex(1.1);
-    transition: 6ms;
-    
+ 
+.encryptor-img {
+    width: 600px;
+    height: 250px;
 }
+.flex-p2 {
+    display: flex;
+}
+
+.p2 {
+    margin: 5px;
+    font-size: 1.3em;
+    text-align: center;
+    
+
+}
+
 a {
-    background-color: #6c757c;
+    
     text-decoration: none;
-    color: #dee2e6;
+    color: #212529;
 }
 a:hover {
-    color: #212529;
+    color: #6c757c;
     
    
    
@@ -82,5 +91,15 @@ a:hover {
         font-size: 25px;
     }   
     .div-box {
-        width: 325px;
+        width: 335px;
+
     } 
+
+    .encryptor-img {
+        width: 335px;
+        height: 150px;
+        
+    }
+    .flex-p2 {
+        margin-left: 25px;
+    }
